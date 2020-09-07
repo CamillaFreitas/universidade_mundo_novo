@@ -1,0 +1,24 @@
+body strong{
+    color: rgb(252, 214, 1);
+}
+
+p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+    color: rgb(56, 56, 112);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagem{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: solid 5px rgb(252, 214, 1);
+}
+
+
