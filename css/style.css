@@ -2,12 +2,17 @@ body strong{
     color: rgb(252, 214, 1);
 }
 
+main{
+    width: 100%;
+}
+
 p{
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 60em;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 80%;
+    font-size: 100%;
 }
 
 h4{
@@ -16,7 +21,7 @@ h4{
 }
 
 img.banner#estudantes{
-    width: 600px;
+    width: 52%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +30,7 @@ img.banner#estudantes{
 }
 
 .cursos{
-    width: 500px;
+    width: 85%;
     border-radius: 5%;
 }
 
@@ -39,6 +44,17 @@ img.banner#estudantes{
     width: 3%;
     position: relative;
     top: 10px;
+}
+
+#endereco, #direitos{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 70%;
+    margin-bottom: 0%;
+}
+
+#endereco{
+    margin-top: 5%;
 }
 
 .container {
@@ -72,15 +88,25 @@ img.banner#estudantes{
   
   .text {
     color: black;
-    font-size: 20px;
+    font-size: 120%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 43%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
   }
 
-
+    @media (max-width: 780px){
+        .cursos{
+            width: 100%;
+        }
+        .text{
+            font-size: 75%;
+        }
+        .icones{
+            width: 100%;
+        }
+    }
