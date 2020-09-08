@@ -5,6 +5,9 @@ body strong{
 p{
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60em;
 }
 
 h4{
@@ -12,13 +15,82 @@ h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.imagem{
-    width: 800px;
+.banner{
+    width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     border: solid 5px rgb(252, 214, 1);
 }
+
+.cursos{
+    width: 400px;
+
+}
+
+#links{
+    color: black;
+    text-decoration: none;
+
+}
+
+#icones1{
+    width: 3%;
+    position: relative;
+    top: 10px;
+}
+
+#icones2{
+    width: 3%;
+    position: relative;
+    top: 10px;
+}
+
+#icones3{
+    width: 3%;
+    position: relative;
+    top: 10px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: whitesmoke;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 
